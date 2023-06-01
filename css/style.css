@@ -1,1 +1,108 @@
 @charset "utf-8";
+
+
+.mintext{
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+
+.header{
+  background: #fff;
+}
+
+.main-title{
+  text-align: center;
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
+}
+
+.sub-title{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.keyvisual{
+  height: 935px;
+  background-image: url(../img/keyvisual/keyvisual.jpg);
+  background-size: cover;
+}
+
+.work{
+  background: #e3f2fd;
+}
+
+.pcicon{
+  display: inline-block;
+  width: 250px;
+  margin-top: 50px;
+}
+
+.twork{
+  margin: 20px 0;
+}
+
+.work-text{
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+}
+
+.twe{
+  margin-top: 50px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item{
+  width: 300px;
+  height: 300px;
+
+}
+
+.plan-inner{
+  background: #d0dfea;
+}
+
+.tplan{
+  margin-top: 50px;
+}
+
+.cell-table{
+  margin: 50px 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.cell-table th{
+  background-color: #6ba7eb;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.cell-table th, .cell-table td{
+  border-left: 2px solid #fff;
+  padding: 10px;
+}
+
+.cell-table td{
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.cell-table tr{
+  background: #f9f9f9;
+}
+
+.cell-table tr:nth-child(even){
+  background: #e0efff;
+}
+
